@@ -1,0 +1,248 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+font-family: Consolas,monaco,monospace
+
+
+
+
+* {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+body{
+	background-color : rgb(255,255,255);
+	margin: 0px ;
+     }
+#intro{
+
+font-size : 60px;
+display: inline-block;
+font-family: Audimat;
+}
+.icons
+{
+  margin-top :100px;
+  /*display: inline-block;*/
+  text-align: center;
+  /*background-color: #FFFF9D;*/
+  
+}
+
+.icon{
+  display :inline-block;
+  height: 200px;
+  width : 200px;
+  /*margin: 100px;*/
+/*padding : 10px;*/
+  background-image :url('star.png');
+  background-size: 200px 200px;
+  /*cursor :pointer;*/
+
+
+}
+.icon-header
+{
+ display: inline-block;
+
+}
+.icon-group{
+display: inline-block;
+margin :50px 100px;
+cursor :pointer;
+opacity: 0.7 ;
+transition : 0.2s ease-out;
+transform: scale(1,1);
+}
+.icon-group:hover{
+
+opacity: 1;
+transform: scale(1.1,1.1);
+
+}
+
+#header {
+	background-color : #FFF;
+	text-align : left;
+	padding : 10px;
+	/*text-decoration: underline;*/
+  /*background-image : url('galaxy.jpg');*/
+  /*opacity: 0.3;*/
+	color : black;
+	border : 50px solid #00A388 ;
+}
+#demo {
+    text-align: center;
+    font-weight: 300;
+    padding: 5px;
+    border : 10px ;
+    border-color: black ;
+    background-color: white;
+    color : #333FFF ;
+
+}
+#header h1 {
+	font-weight: 300;
+	margin-left: 20px;
+  /*background-image: url('galaxy.png');*/
+	/*text-decoration: none;*/
+}
+
+  #contact{
+  	padding:10px;
+  	border : 2px solid black;
+  	background-color : #FFFFFF;
+  	font-color :#00FFCC;
+  	text-decoration: none;
+  	/*background-image : url (e-mail.png);*/
+  	left margin : 20px;
+  	
+
+  }
+
+  #quote{
+    margin-top: 0px;
+    display: inline-block;
+    height :70px;
+    width : 2000px;
+    font-weight: 50px;
+    text-align: center;
+    font-size : 30px;
+    padding: 20px;
+    /*font-family: 'Tangerine',serif;*/
+    font-family: Consolas,monaco,monospace;
+
+    -webkit-animation: myfirst 10s; /* Chrome, Safari, Opera */
+    animation: myfirst 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-direction: reverse;
+
+  }
+
+@-webkit-keyframes myfirst {
+ 0% { background :#FFFF9D;}
+ 50% {background:#79BD8F;}
+ 75%{background :#FF6138;}
+ 100%{ background: #FFFF9D;}
+ 
+}
+ 
+
+
+
+#overlay
+{
+
+position: absolute;
+top :0;
+left : 0;
+width :100%;
+height : 100%;
+z-index :99;
+background-color: black ;
+opacity: 0;
+pointer-events:none;
+transition: 0.2s ease-out;
+
+}
+#form-wrapper
+{
+
+	background:  white;
+	width :500px;
+	height :300px;
+	margin : 0 auto;
+	z-index :100;
+	position: absolute;
+  top :50%;
+  margin-top: -170px;
+  left:50%;
+  margin-left: -270px;
+  padding: 40px;
+  opacity: 0;
+  pointer-events :none;
+  transition: 0.2s ease-out;
+}
+
+#cross{
+position :absolute;
+top :0;
+right :0;
+width :30px;
+height :30px;
+background-image: url(cross.png);
+background-size: 30px 30px ;
+cursor: pointer;
+margin :10px;
+transition: 0.2s ease-out;
+opacity :0.5;
+
+}
+#cross:hover
+{
+	opacity: 1;
+}
+
+#title
+{
+font-style :bold;
+font-size :20px;
+
+}
+#a1{
+
+  padding: 25px 40px;
+  background-color: #FF6138;
+  margin-right: 10px;
+  cursor: pointer;
+  /*border :  solid black;*/
+  float :right; 
+  margin-top: 30px;
+  /*margin-left : 1000px;*/
+  border-radius: 30px;
+  color:#FFF;
+  font-style :bold;
+  font-size :20px;
+  transform : scale(1,1);
+  opacity: 0.6;
+
+
+}
+/*#cross-2*/
+/*{*/
+/*position :absolute;*/
+/*top :0;*/
+/*right :0;*/
+/*width :30px;*/
+/*height :30px;*/
+/*background-image: url(cross.png);*/
+/*background-size: 30px 30px ;*/
+/*cursor: pointer;*/
+/*margin :10px;*/
+/*transition: 0.2s ease-out;*/
+/*opacity :0.5;*/
+
+
+/*}*/
+#a1:hover{
+  opacity: 1;
+  transform :scale(1.2,1.2);
+  color: #000;
+  transition :0.3s ease-out;
+}
+
+fieldset{
+
+font-family : sans-serif;
+background-color: #FFFFCC;
+margin-left : 20px;
+
+}
+/*.slides img*/
+/*{*/
+
+  /*height :100px;*/
+  /*width : 200px;*/
+/*}*/
+
+/*}*/
